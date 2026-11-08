@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "スカイギフト アドオン",
+      "name": "Sky Gift",
+      "uuid": "d84a621c-b8a6-4755-85e3-d639f14d01c4",
+      "min_engine_version": [1,20,10],
+      "version": [1,0,0]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "9ed4b851-207d-40e7-97fb-0b562ea97ab3",
+        "entry": "scripts/main.js",
+        "version": [0,1,0]
+      },{
+        "type": "data",
+        "uuid": "4523b983-e148-4865-aa68-b053c624f75f",
+        "version": [1,0,0]
+      }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.10.0"
+      }
+    ]
+  }
